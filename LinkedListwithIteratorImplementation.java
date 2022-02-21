@@ -1,11 +1,11 @@
 /**
  * Name: Kabir Bagai
  * 
- * The file contains three classes, MyLinkedList a nested class, Node, 
+ * The file contains three classes, LinkedList a nested class, Node, 
  * which is used to intialize and store data/pointer for the nodes in the list
  * and nested class MyListIterator, which implements the functions of 
  * iterators in Java. 
- * MyLinkedList implements the methods characteristic of linked lists in Java. 
+ * My LinkedList implements the methods characteristic of linked lists in Java. 
  */
 
 import java.util.AbstractList;
@@ -20,7 +20,7 @@ import java.util.NoSuchElementException;
  * 
  */
 
-public class MyLinkedList<E> extends AbstractList<E> {
+public class LinkedListwithIterator<E> extends AbstractList<E> {
 
 	int size;
 	Node head;
@@ -102,7 +102,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	* initializes head and tail dummy nodes and sets size of list
 	* equal to zero 
 	*/
-	public MyLinkedList() {
+	public LinkedListwithIterator() {
 		
 		Node headSentinel = new Node(null);
 		Node tailSentinel = new Node(null);
