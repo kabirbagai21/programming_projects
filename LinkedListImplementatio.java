@@ -1,8 +1,6 @@
 
 /**
  * Name: Kabir Bagai
- * Email: kbagai@ucsd.edu
- * Sources used: None
  * 
  * The file contains two classes, MyLinkedList and a nested class, Node, 
  * which is used to intialize and store data/pointer for the nodes in the list. 
