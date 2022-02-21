@@ -1,9 +1,6 @@
 /**
  * 
  * Name: Kabir Bagai
- * ID: A16757319
- * Email: kbagai@ucsd.edu
- * Sources used: None
  * This file contains my implementation of an ArrayList. The three constructors initialize  
  * MyArrayList 3 different ways but all contain the same instance variables, an Object array called "data" and a variable called "size". 
  * The size instance variable keeps track of the number of valid elements in the ArrayList while the capacity of the Array List is 
