@@ -2,15 +2,15 @@
  * 
  * Name: Kabir Bagai
  * This file contains my implementation of an ArrayList. The three constructors initialize  
- * MyArrayList 3 different ways but all contain the same instance variables, an Object array called "data" and a variable called "size". 
+ * my ArrayList 3 different ways but all contain the same instance variables, an Object array called "data" and a variable called "size". 
  * The size instance variable keeps track of the number of valid elements in the ArrayList while the capacity of the Array List is 
  * determined by the length of the "data" array. The other methods contained in the MyArrayList class provide the same functionality as
  * the ones in Java's ArrayList class. 
  */
 
- //constructs a MyArrayList object and implements methods equivalent to those found in the ArrayList class in Java. 
+ //constructs an ArrayList object and implements methods equivalent to those found in the ArrayList class in Java. 
 
- class MyArrayList<E>{
+ class ArrayListImplementation<E>{
 
     Object[] data; //underlying data structure of ArrayList, stores elements up to certain capacity
     int size; //number of valid elements in array (corresponds to the ArrayList)
@@ -18,16 +18,16 @@
 
     /* constructs MyArrayList when initial capacity isn't given. Default capacity is 5
     */
-    public MyArrayList(){
+    public ArrayListImplementation(){
         this.data = new Object[default_capacity]; 
         this.size = 0; 
     }
 
-    /* constructs MyArrayList when initial capacity is given.
+    /* constructs ArrayList when initial capacity is given.
     *@param initialCapicity of array
     */
 
-    public MyArrayList(int initialCapacity){
+    public ArrayListImplementation(int initialCapacity){
 
 
         if(initialCapacity < 0){
@@ -39,10 +39,10 @@
         }
     }
 
-     /* constructs MyArrayList object using input array.
+     /* constructs ArrayList object using input array.
      * @param arr- array of elements "E" that is used to initialize a new MyArrayList object 
      */
-    public MyArrayList (E[] arr){
+    public ArrayListImplementation (E[] arr){
 
         if(arr == null){
             this.data = new Object[default_capacity]; 
